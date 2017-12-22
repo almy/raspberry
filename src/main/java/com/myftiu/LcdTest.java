@@ -15,7 +15,7 @@ public class LcdTest {
 
         Lcd lcd = new LcdPlate(BUS_NO, BUS_ADDRESS);
         lcd.write("Hello World!");
-        Thread.sleep(5000);
+        Thread.sleep(6000);
         lcd.shutdown();
 
     }
