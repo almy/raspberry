@@ -36,6 +36,7 @@ public class App
         lcd.clear();
         Thread.sleep(1000);
 
+
         lcd.write(LCD_ROW_1, "WeArGenius");
         lcd.write(LCD_ROW_2, " ???");
 
